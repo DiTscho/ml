@@ -5,4 +5,10 @@ d = { 'settings': { 'branch': 'master',
                 'doc_host': 'https://DiTscho.github.io',
                 'git_url': 'https://github.com/DiTscho/ml',
                 'lib_path': 'ml'},
-  'syms': {'ml.core': {'ml.core.foo': ('core.html#foo', 'ml/core.py')}}}
+  'syms': { 'ml.core': { 'ml.core._get_files': ('data.html#_get_files', 'ml/core.py'),
+                         'ml.core._get_tma_id': ('data.html#_get_tma_id', 'ml/core.py'),
+                         'ml.core._get_tma_spot': ('data.html#_get_tma_spot', 'ml/core.py'),
+                         'ml.core.get_clinical_data': ('data.html#get_clinical_data', 'ml/core.py'),
+                         'ml.core.get_files': ('data.html#get_files', 'ml/core.py'),
+                         'ml.core.get_tma_id': ('data.html#get_tma_id', 'ml/core.py'),
+                         'ml.core.get_tma_spot': ('data.html#get_tma_spot', 'ml/core.py')}}}
