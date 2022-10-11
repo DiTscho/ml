@@ -3,23 +3,28 @@
 # %% auto 0
 __all__ = ['tile']
 
+# %% ../02_patching.ipynb 3
+from pathlib import Path
+
 # %% ../02_patching.ipynb 4
 from .nb_01_processing import *
 
 # %% ../02_patching.ipynb 5
 import pandas as pd
+
+# %% ../02_patching.ipynb 6
 import matplotlib.pylab as plt
 
-# %% ../02_patching.ipynb 11
+# %% ../02_patching.ipynb 12
 import cv2
 
-# %% ../02_patching.ipynb 12
+# %% ../02_patching.ipynb 13
 Path.str = lambda x: str(x)
 
-# %% ../02_patching.ipynb 15
+# %% ../02_patching.ipynb 16
 import ipyplot
 
-# %% ../02_patching.ipynb 16
+# %% ../02_patching.ipynb 17
 def tile(img, mask, sz=128, N = 32):
     result = []
     shape = img.shape

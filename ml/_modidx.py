@@ -39,4 +39,9 @@ d = { 'settings': { 'branch': 'master',
                                      'ml.nb_01_processing.oldest_date': ( 'processing_dataframe.html#oldest_date',
                                                                           'ml/nb_01_processing.py')},
             'ml.nb_02_exploring': {},
-            'ml.nb_02_patching': {'ml.nb_02_patching.tile': ('patching.html#tile', 'ml/nb_02_patching.py')}}}
+            'ml.nb_02_patching': {'ml.nb_02_patching.tile': ('patching.html#tile', 'ml/nb_02_patching.py')},
+            'ml.nb_03_dataset': { 'ml.nb_03_dataset.PatchedDataSet': ('dataset.html#patcheddataset', 'ml/nb_03_dataset.py'),
+                                  'ml.nb_03_dataset.PatchedDataSet.__getitem__': ('dataset.html#__getitem__', 'ml/nb_03_dataset.py'),
+                                  'ml.nb_03_dataset.PatchedDataSet.__init__': ('dataset.html#__init__', 'ml/nb_03_dataset.py'),
+                                  'ml.nb_03_dataset.PatchedDataSet.__len__': ('dataset.html#__len__', 'ml/nb_03_dataset.py'),
+                                  'ml.nb_03_dataset.PatchedDataSet.get_img_ids': ('dataset.html#get_img_ids', 'ml/nb_03_dataset.py')}}}
