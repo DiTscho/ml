@@ -37,4 +37,6 @@ d = { 'settings': { 'branch': 'master',
                                      'ml.nb_01_processing.most_recent_date': ( 'processing_dataframe.html#most_recent_date',
                                                                                'ml/nb_01_processing.py'),
                                      'ml.nb_01_processing.oldest_date': ( 'processing_dataframe.html#oldest_date',
-                                                                          'ml/nb_01_processing.py')}}}
+                                                                          'ml/nb_01_processing.py')},
+            'ml.nb_02_exploring': {},
+            'ml.nb_02_patching': {'ml.nb_02_patching.tile': ('patching.html#tile', 'ml/nb_02_patching.py')}}}
