@@ -44,4 +44,12 @@ d = { 'settings': { 'branch': 'master',
                                   'ml.nb_03_dataset.PatchedDataSet.__getitem__': ('dataset.html#__getitem__', 'ml/nb_03_dataset.py'),
                                   'ml.nb_03_dataset.PatchedDataSet.__init__': ('dataset.html#__init__', 'ml/nb_03_dataset.py'),
                                   'ml.nb_03_dataset.PatchedDataSet.__len__': ('dataset.html#__len__', 'ml/nb_03_dataset.py'),
-                                  'ml.nb_03_dataset.PatchedDataSet.get_img_ids': ('dataset.html#get_img_ids', 'ml/nb_03_dataset.py')}}}
+                                  'ml.nb_03_dataset.PatchedDataSet.get_img_ids': ('dataset.html#get_img_ids', 'ml/nb_03_dataset.py')},
+            'ml.nb_03a': {},
+            'ml.nb_03b': { 'ml.nb_03b.PatchedDataSet': ('testing_patched_bags.html#patcheddataset', 'ml/nb_03b.py'),
+                           'ml.nb_03b.PatchedDataSet.__getitem__': ('testing_patched_bags.html#__getitem__', 'ml/nb_03b.py'),
+                           'ml.nb_03b.PatchedDataSet.__init__': ('testing_patched_bags.html#__init__', 'ml/nb_03b.py'),
+                           'ml.nb_03b.PatchedDataSet.__len__': ('testing_patched_bags.html#__len__', 'ml/nb_03b.py'),
+                           'ml.nb_03b.PatchedDataSet.get_img_ids': ('testing_patched_bags.html#get_img_ids', 'ml/nb_03b.py'),
+                           'ml.nb_03b.split_df': ('testing_patched_bags.html#split_df', 'ml/nb_03b.py')},
+            'ml.nb_04_model': {}}}
