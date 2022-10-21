@@ -52,4 +52,5 @@ d = { 'settings': { 'branch': 'master',
                            'ml.nb_03b.PatchedDataSet.__len__': ('testing_patched_bags.html#__len__', 'ml/nb_03b.py'),
                            'ml.nb_03b.PatchedDataSet.get_img_ids': ('testing_patched_bags.html#get_img_ids', 'ml/nb_03b.py'),
                            'ml.nb_03b.split_df': ('testing_patched_bags.html#split_df', 'ml/nb_03b.py')},
-            'ml.nb_04_model': {}}}
+            'ml.nb_04_model': {},
+            'ml.nb_04b_data': {'ml.nb_04b_data.open_image': ('dataset_more_abstract.html#open_image', 'ml/nb_04b_data.py')}}}

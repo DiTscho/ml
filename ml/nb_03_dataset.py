@@ -87,7 +87,7 @@ class PatchedDataSet(data_utils.Dataset):
             
         patches = torch.stack(patches, dim=0)
         
-        return patches.clone().detach(), self.df.iloc[idx][self.y_col]
+        return patches.clone(), torch.tensor(self.df.iloc[idx][self.y_col]) #.detach()
     
     def __len__(self):
         return len(self.img_ids)
